@@ -2,3 +2,7 @@
 body {
     background-color: rgb(57, 55, 55);
 }
+
+.page-body-wrapper {
+    background-color: black;
+}
