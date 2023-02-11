@@ -12,9 +12,7 @@
 <body>
     <header>
         <navbar>
-           
-
-        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+          <nav class="navbar navbar-expand-lg bg-body-tertiary">
             <div class="container-fluid">
               <a class="navbar-brand" href="#">Jaswal Taskboard</a>
               <button class="navbar-toggler" type="button" id="btn"  data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -31,38 +29,11 @@
                   <li class="nav-item">
                     <a class="nav-link disabled">Disabled</a>
                   </li>
-
-                  <!-- <li class="task-input">
-                      <input type="text" name="task-name" placeholder="Enter Task Name"/>
-                  </li>
-                  
-                  <div class="form-group">
-                    <select name="task-type" class="select-dropdown me-2">
-                      <option value="" disabled selected>Pick a task type</option>
-                      <option value="Work">Work</option>
-                      <option value="Home">Home</option>
-                      <option value="Fun">Fun Stuff</option>
-                    </select>
-                  </div> -->
-                  <!-- <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                      Dropdown
-                    </a>
-                    <ul class="dropdown-menu">
-                      <li><a class="dropdown-item" href="#">Action</a></li>
-                      <li><a class="dropdown-item" href="#">Another action</a></li>
-                      <li><hr class="dropdown-divider"></li>
-                      <li><a class="dropdown-item" href="#">Something else here</a></li>
-                    </ul>
-                  </li> -->
-                  
                 </ul>
 
                 <form class="d-flex">
-                  <!-- <div class="task-input task-input-md me-2"> -->
-                    <input class="task-input task-input-md rounded-2 me-1 " type="text" name="task-name" placeholder="Enter Task Name"/>
-                  <!-- </div> -->
-                  <br>
+                  <input class="task-input task-input-md rounded-2 me-1 " type="text" name="task-name"  placeholder="Enter Task Name"/>
+                  
                   <div class="form-group form-group-lg">
                     <select name="task-type" class="form-select form-select-md me-4" id="tasktype">
                       <option value="" disabled selected>Pick a task type</option>
@@ -86,30 +57,30 @@
     <br>
     <div class="container-main navbar-expand-lg bg-body-secondary">
        <div class="row"> 
-            <div class="container-fluid page-body-wrapper col col-lg-2">
+            <div class="container-fluid page-body-wrapper col col-lg-3">
                 <nav class="leftsidebar bg-black" id="sidebar">
                     <ul class="nav flex-column">
                         <li class="nav-item">
-                        <button class="btn btn-primary" type="submit" id="btn1">Add new task</button>
+                        <button class="btn btn-primary col col-lg-9 mt-5" type="submit" id="btn1">Add new task</button>
                         </li>
                         <br>
                         <li class="nav-item">
-                        <button class="btn btn-primary" type="button" id="btn2">Tasks to do</button>
+                        <button class="btn btn-primary col col-lg-9" type="button" id="btn2">Tasks to do</button>
                         </li>
                         <br>
                         <li class="nav-item">
-                        <button class="btn btn-primary" type="button" id="btn3">Tasks in progress</button>
+                        <button class="btn btn-primary col col-lg-9" type="button" id="btn3">Tasks in progress</button>
                         </li>
                         <br>
                         <li class="nav-item">
-                        <a class="btn btn-primary" href="#">Completed Tasks</a>
+                        <a class="btn btn-primary col col-lg-9 mb-4" href="#">Completed Tasks</a>
                         </li>
                     </ul>
                     
                 </nav>
             </div>
 
-            <div class="container-fluid page-body-wrapper col col-lg-10">
+            <div class="container-fluid page-body-wrapper col col-lg-9">
               <section class="task-list wrapper">
                  <h2 class="list-title">Tasks To Do</h2>
                  <ul class="task-list" id="tasks-to-do">
