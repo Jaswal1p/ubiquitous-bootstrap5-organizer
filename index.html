@@ -28,7 +28,23 @@
                   <li class="nav-item">
                     <a class="nav-link" href="#">Link</a>
                   </li>
-                  <li class="nav-item dropdown">
+                  <li class="nav-item">
+                    <a class="nav-link disabled">Disabled</a>
+                  </li>
+
+                  <!-- <li class="task-input">
+                      <input type="text" name="task-name" placeholder="Enter Task Name"/>
+                  </li>
+                  
+                  <div class="form-group">
+                    <select name="task-type" class="select-dropdown me-2">
+                      <option value="" disabled selected>Pick a task type</option>
+                      <option value="Work">Work</option>
+                      <option value="Home">Home</option>
+                      <option value="Fun">Fun Stuff</option>
+                    </select>
+                  </div> -->
+                  <!-- <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                       Dropdown
                     </a>
@@ -38,11 +54,25 @@
                       <li><hr class="dropdown-divider"></li>
                       <li><a class="dropdown-item" href="#">Something else here</a></li>
                     </ul>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link disabled">Disabled</a>
-                  </li>
+                  </li> -->
+                  
                 </ul>
+
+                <form class="d-flex">
+                  <!-- <div class="task-input task-input-md me-2"> -->
+                    <input class="task-input task-input-md rounded-2 me-1 " type="text" name="task-name" placeholder="Enter Task Name"/>
+                  <!-- </div> -->
+                  <br>
+                  <div class="form-group form-group-lg">
+                    <select name="task-type" class="form-select form-select-md me-4" id="tasktype">
+                      <option value="" disabled selected>Pick a task type</option>
+                      <option value="Work">Work</option>
+                      <option value="Home">Home</option>
+                      <option value="Fun">Fun Stuff</option>
+                    </select>
+                  </div>
+                </form>
+                
                 <form class="d-flex" role="search">
                   <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
                   <button class="btn btn-outline-success" type="submit" id="toggler">Search</button>
@@ -60,7 +90,7 @@
                 <nav class="leftsidebar bg-black" id="sidebar">
                     <ul class="nav flex-column">
                         <li class="nav-item">
-                        <button class="btn btn-primary" type="button" id="btn1">Add new task</button>
+                        <button class="btn btn-primary" type="submit" id="btn1">Add new task</button>
                         </li>
                         <br>
                         <li class="nav-item">
