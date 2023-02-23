@@ -5,11 +5,12 @@ body {
 
 .page-body-wrapper {
     background-color: black;
+    
 }
 
 .task-list-wrapper {
     flex: 1;
-    margin: 0 10px 10px;
+    margin: 0 10px 0 85px;
   }
   
   .list-title {
@@ -19,18 +20,19 @@ body {
   
   .task-list {
     list-style: none;
-    padding: 5px 0 0 0;
+    padding: 15px 0 0 0;
     height: calc(100% - 50px);
     background: rgb(196, 196, 196);
-    border-radius: 12px;
+    border-bottom-left-radius: 12px;
+    border-bottom-right-radius: 12px;
     border: 2px solid var(--grey);
   }
   
   .task-item {
     color: var(--grey);
     padding: 15px 15px;
-    border: 2px solid var(--grey);
-    background: var(--tertiary);
+    border: 1px solid black;
+    background: #bcdbf1;
     border-radius: 12px;
     margin-bottom: 20px;
   }
